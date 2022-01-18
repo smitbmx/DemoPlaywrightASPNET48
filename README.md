@@ -14,3 +14,8 @@ Line 14:         {
 Line 15:             using (var playwright = await Playwright.CreateAsync())
 Line 16:             {
 Line 17:                 var browser = await playwright.Webkit.LaunchAsync();`
+
+![image](https://user-images.githubusercontent.com/1814356/149911651-daadc307-82e6-485b-a72e-e023f7a26199.png)
+
+#### Note:
+The implementation with Playwright is only in the `Index` action of the `HomeController` class.
